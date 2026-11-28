@@ -44,7 +44,8 @@ const subtitleLocales = {
 	Chinese: 'zh-Hans',
 	TraditionalChinese: 'zh-Hant',
 	Japanese: 'ja',
-	Korean: 'ko'
+	Korean: 'ko',
+	Thai: 'th'
 };
 
 const CHARACTER = 'CH0318';
@@ -57,121 +58,126 @@ const AUDIO_DETAIL = [
     {
         dialog: {
             Japanese: [
-                "ここはスクリーンの裏側です。",
-                "つまり、舞台裏。"
+                "ここは、スクリーンの裏側です。",
+                "つまり、舞台裏……。"
             ],
             English: [
-                "This is the area behind the screen.",
-                "In other words, the backstage."
+                "We are behind the screens.",
+                "Thus, behind the artwork..."
             ],
             Chinese: [
-                "这里是银幕的背面。",
-                "也就是说，幕后……"
+                "这里是屏幕的背后。",
+                "也就是，作品的里面……"
             ],
             TraditionalChinese: [
-                "這裡是銀幕的背面。",
-                "也就是說，幕後……"
+                "這裡，是螢幕的另一邊。",
+                "也就是舞台後方……"
             ],
             Korean: [
-                "이것은 스크린 뒤에 있는 영역입니다.",
-                "다시 말해, 무대 뒤에서"
-            ]
+                "이곳은 스크린의 뒤편이에요.",
+                "즉, 작품의 뒷면……."
+            ],
+            Thai: ["ที่นี่คือด้านหลังจอโปรเจคเตอร์ค่ะ","หรือก็คือด้านหลังของผลงาน..."]
         }
     },
     {
         dialog: {
             Japanese: [
-                "『作家』だけが出入りできる空間です。",
-                "ここに入る唯一の方法は、『作家』である私に許可を取ること。"
+                "作家だけが出入りできる空間です。",
+                "ここに入る唯一の方法は……作家である私に許可を取ること。"
             ],
             English: [
-                "A space that only the 'creator' can enter and exit.",
-                "The only way in is to get permission from me, the 'creator'!"
+                "A place where only the artist may enter.",
+                "The only way to enter this place...is to get permission from me, the artist. "
             ],
             Chinese: [
-                "这是只有作家才能进出的空间。",
-                "进入这里的唯一方法……就是获得身为作家的我的许可。"
+                "是只有作者才能出入的空间。",
+                "进入这里唯一的方法就是……经过身为作者的，我的同意。"
             ],
             TraditionalChinese: [
-                "這是隻有作家才能進出的空間。",
-                "進入這裡的唯一方法……就是獲得身為作家的我的許可。"
+                "只有作家才能進出的空間。",
+                "進入這裡唯一的方法……就是向身為作家的我取得許可。"
             ],
             Korean: [
-                "오직 '창조자'만이 들어갈 수 있고 나올 수 있는 공간",
-                "유일한 방법은 '창조자'로부터 허락을 받는 것입니다!"
-            ]
+                "작가만이 드나들 수 있는 공간이죠.",
+                "이곳에 들어올 유일한 방법은…… 작가인 저의 허락을 받는 것뿐이죠. "
+            ],
+            Thai: ["เป็นที่ที่เจ้าของผลงานเท่านั้น ที่เข้ามาได้ค่ะ","วิธีเดียวที่จะเข้ามาที่นี่ได้... ก็คือการได้รับอนุญาต จากฉันที่เป็นเจ้าของผลงานค่ะ "]
         }
     },
     {
         dialog: {
             Japanese: [
-                "だからここは今――",
-                "先生と、私二人きりの……。"
+                "だから、ここは今――",
+                "先生と私、二人……きりの……。"
             ],
             English: [
-                "Which means, right now, this is—",
-                "A place for just Sensei and me, all alone..."
+                "So, right now, in this place...",
+                "There's only you and...me..."
             ],
             Chinese: [
-                "所以，此刻这里——",
-                "只有老师和我，两个人……独处的……"
+                "所以，现在这里……",
+                "是只有我，和老师两个人单独的……"
             ],
             TraditionalChinese: [
-                "所以，此刻這裡——",
-                "只有老師和我，兩個人……獨處的……"
+                "所以，現在這裡──",
+                "就是老師和我，兩人……獨處的……"
             ],
             Korean: [
-                "즉, 지금 이 순간,",
-                "선생님랑 나만 혼자 있는 곳..."
-            ]
+                "그러니까, 여기는 지금……",
+                "선생님과 저, 단둘만 있……는……."
+            ],
+            Thai: ["เพราะงั้นตอนนี้ ที่นี่...","มีแค่คุณครูกับฉัน สองคน... เท่านั้น..."]
         }
     },
     {
         dialog: {
             Japanese: [
-                "……っていやいやいや、そうじゃなくてですね！",
-                "と、とにかく、お弁当を作ってきたんですけど……！"
+                "って！いやいやいや！そ、そうじゃなくてですね！",
+                "とにかく！お弁当を作ってきたんですけど……。"
             ],
             English: [
-                "...I-I-I mean, that's not what I meant!",
-                "A-Anyway, I made you a bento...!"
+                "Uh no no no no! Th-That's not what I meant...!",
+                "Anyway! I packed lunch..."
             ],
             Chinese: [
-                "等、等等！不、不是这样的！我、我不是那个意思！",
-                "总、总之！我做了便当要给您……"
+                "呃！不对不对不对！不，不是那个意思……！",
+                "总之就是！我做了便当……"
             ],
             TraditionalChinese: [
-                "等、等等！不、不是這樣的！我、我不是那個意思！",
-                "總、總之！我做了便當要給您……"
+                "等等！不對不對不對！我，我不是那個意思！",
+                "總之！我帶了做好的便當過來……"
             ],
             Korean: [
-                "...그게 내 뜻은 아니었어!",
-                "어쨌든, 난 당신에게 벤토를 만들었어!"
-            ]
+                "그 아니아니아니! 그, 그게 아니라……!",
+                "아무튼! 도시락을 만들어 왔는데요……."
+            ],
+            Thai: ["ไม่สิ ไม่ๆๆ! มะ... ไม่ใช่อย่างนั้น...!","เอาเป็นว่า! ฉันทำข้าวกล่อง มาด้วยค่ะ..."]
         }
     },
     {
         dialog: {
             Japanese: [
-                "えっと、もしよろしければ……。",
-                "一緒に、食べませんか……？"
+                "えっと、もし、よろしければ……。",
+                "……一緒に、食べませんか？"
             ],
             English: [
-                "Umm, so, if you'd like...",
-                "Would you want to... eat it with me?"
+                "Um, if you're fine with it...",
+                "...Would you like to have some?"
             ],
             Chinese: [
-                "那个…如果您不介意的话……",
-                "……要一起……吃吗？"
+                "那个，可，可以的话……",
+                "……要不要，一起吃了便当再出去呢？"
             ],
             TraditionalChinese: [
-                "那個…如果您不介意的話……",
-                "……要一起……吃嗎？"
+                "那個，如果，不介意的話……",
+                "……要一起吃嗎？"
             ],
             Korean: [
-                "음, 그래서, 당신이 원한다면...",
-                "같이 먹으면 좋겠어요?"
-            ]
+                "그게, 혹시, 괜찮으시다면…….",
+                "……도시락, 먹고 갈래요?"
+            ],
+            Thai: ["เอ่อ คือว่า ถ้าไม่ว่าอะไร....","กินข้าวกล่องก่อนไปมั้ยคะ?"]
         }
     }
 ];
@@ -283,7 +289,7 @@ function playVoiceline() {
 			track.play().catch(finish);
 
 			if (dialogBox) {
-				textbox.textContent = dialog[window.selectedLanguage][index];
+				textbox.textContent = getSubtitleText(dialog, window.selectedLanguage, index);
 				textbox.style.opacity = 1;
 			}
 		},
@@ -452,6 +458,16 @@ function setMouse(event) {
 	return { x: ax - canvas.width * positionX, y: ay - canvas.height * positionY };
 }
 
+function getSubtitleText(dialog, language, index) {
+	let text = dialog?.[language]?.[index];
+	if (text == null && language === 'Thai') {
+		language = 'English';
+		text = dialog?.[language]?.[index];
+	}
+	textbox.lang = subtitleLocales[language];
+	return text ?? "";
+}
+
 function updateSubtitleLanguage() {
 	let language = subtitleLanguagePreference;
 	if (language === 'auto') {
@@ -465,6 +481,8 @@ function updateSubtitleLanguage() {
 			language = 'Japanese';
 		} else if (primary === 'ko' || primary === 'korean' || primary === 'koreana') {
 			language = 'Korean';
+		} else if (primary === 'th' || primary === 'thai') {
+			language = 'Thai';
 		} else {
 			language = 'English';
 		}
@@ -474,7 +492,7 @@ function updateSubtitleLanguage() {
 	window.selectedLanguage = language;
 	textbox.lang = subtitleLocales[language];
 	const clip = currentTracks.at(-1);
-	if (dialogBox && clip) textbox.textContent = clip.dialog[language][clip.index];
+	if (dialogBox && clip) textbox.textContent = getSubtitleText(clip.dialog, language, clip.index);
 }
 
 function init() {
